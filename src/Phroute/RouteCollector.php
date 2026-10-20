@@ -71,7 +71,7 @@ class RouteCollector implements RouteDataProviderInterface {
      * @param array $args
      * @return string
      */
-    public function route(?$name, array $args = null)
+    public function route($name, ?array $args = null)
     {
         $url = [];
 
